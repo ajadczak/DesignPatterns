@@ -43,6 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AudioData.cs" />
+    <Compile Include="AudioJack.cs" />
+    <Compile Include="AudioJackToLightningAdapter.cs" />
+    <Compile Include="IAudioJack.cs" />
+    <Compile Include="Phone.cs" />
+    <Compile Include="ILightningPort.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
